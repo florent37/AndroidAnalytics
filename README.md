@@ -1,6 +1,6 @@
 # AndroidAnalytics
 
-#Download
+# Download
 
 In your module [![Download](https://api.bintray.com/packages/florent37/maven/androidanalytics/images/download.svg)](https://bintray.com/florent37/maven/androidanalytics/_latestVersion)
 ```groovy
@@ -60,7 +60,7 @@ Analytics.registerProvider(
 );
 ```
 
-#Credits
+# Credits
 
 Author: Florent Champigny [http://www.florentchampigny.com/](http://www.florentchampigny.com/)
 
