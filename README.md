@@ -2,7 +2,7 @@
 
 #Download
 
-In your module [![Download](https://api.bintray.com/packages/florent37/maven/AndroidAnalytics/images/download.svg)](https://bintray.com/florent37/maven/AndroidAnalytics/_latestVersion)
+In your module [![Download](https://api.bintray.com/packages/florent37/maven/androidanalytics/images/download.svg)](https://bintray.com/florent37/maven/androidanalytics/_latestVersion)
 ```groovy
 //not available yet
 compile 'com.github.florent37:androidanalytics:1.0.0'
