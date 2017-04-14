@@ -21,11 +21,11 @@ dependencies {
 
 ext {
     bintrayRepo = 'maven'
-    bintrayName = 'androidanalytics'
+    bintrayName = 'androidanalytics-google'
     orgName = 'florent37'
 
     publishedGroupId = 'com.github.florent37'
-    libraryName = 'AndroidAnalytics'
+    libraryName = 'AndroidAnalytics-Google'
     artifact = 'androidanalytics-google'
 
     libraryDescription = ''
