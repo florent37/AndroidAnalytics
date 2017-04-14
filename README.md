@@ -24,6 +24,25 @@ button.setOnClickListener(v -> {
 });
 ```
 
+# Another analytics provider
+
+```java
+Analytics
+          .registerProvider(
+                  new AnalyticsProvider() {
+                      @Override
+                      public void event(AnalyticsEvent analyticsEvent) {
+                            //send it to your analytics
+                      }
+
+                      @Override
+                      public void screen(String screenName) {
+                            //send it to your analytics
+                      }
+                  }
+          );
+```
+
 # Loggin analytics provider
 
 ```java

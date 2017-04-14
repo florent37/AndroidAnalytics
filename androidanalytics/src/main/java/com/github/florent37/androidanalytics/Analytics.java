@@ -1,4 +1,4 @@
-package com.github.florent37.androidanalytics.androidanalytics;
+package com.github.florent37.androidanalytics;
 
 import java.util.Arrays;
 import java.util.Collection;
@@ -36,7 +36,16 @@ public class Analytics {
     public static Analytics event(AnalyticsEvent event) {
         synchronized (INSTANCE.providers) {
             for (AnalyticsProvider provider : INSTANCE.providers) {
-                provider.event(event    );
+                provider.event(event);
+            }
+        }
+        return INSTANCE;
+    }
+
+    public static Analytics exception(Exception exception) {
+        synchronized (INSTANCE.providers) {
+            for (AnalyticsProvider provider : INSTANCE.providers) {
+                provider.exception(exception);
             }
         }
         return INSTANCE;

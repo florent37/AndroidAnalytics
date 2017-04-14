@@ -1,8 +1,9 @@
-package com.github.florent37.androidanalytics.androidanalytics;
+package com.github.florent37.androidanalytics.google;
 
 import android.content.Context;
 
-import com.github.florent37.androidanalytics.androidanalytics.AnalyticsProvider;
+import com.github.florent37.androidanalytics.AnalyticsEvent;
+import com.github.florent37.androidanalytics.AnalyticsProvider;
 import com.google.android.gms.analytics.GoogleAnalytics;
 import com.google.android.gms.analytics.HitBuilders;
 import com.google.android.gms.analytics.StandardExceptionParser;

@@ -1,11 +1,12 @@
-package com.github.florent37.androidanalytics;
+package com.github.florent37.androidanalytics.sample;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 
-import com.github.florent37.androidanalytics.androidanalytics.Analytics;
-import com.github.florent37.androidanalytics.androidanalytics.AnalyticsEvent;
+import com.github.florent37.androidanalytics.Analytics;
+import com.github.florent37.androidanalytics.AnalyticsEvent;
+
 
 public class MainActivity extends AppCompatActivity {
 
@@ -16,7 +17,7 @@ public class MainActivity extends AppCompatActivity {
 
         Analytics.screen("MainActivity");
 
-        findViewById(R.id.text).setOnClickListener(new View.OnClickListener() {
+        findViewById(R.id.button).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Analytics.event(new AnalyticsEvent()

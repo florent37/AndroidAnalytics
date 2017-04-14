@@ -1,4 +1,4 @@
-package com.github.florent37.androidanalytics.androidanalytics;
+package com.github.florent37.androidanalytics;
 
 /**
  * Created by florentchampigny on 14/04/2017.

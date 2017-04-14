@@ -1,4 +1,4 @@
-package com.github.florent37.androidanalytics.androidanalytics;
+package com.github.florent37.androidanalytics;
 
 import android.util.Log;
 
