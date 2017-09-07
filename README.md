@@ -35,6 +35,15 @@ button.setOnClickListener(v -> {
 });
 ```
 
+`MainActivity.java`
+```java
+Analytics.screen("MainActivity");
+
+button.setOnClickListener(v -> {
+         Analytics.event("main", "click", "button");
+});
+```
+
 # Another analytics provider
 
 ```java

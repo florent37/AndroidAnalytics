@@ -42,6 +42,15 @@ public class Analytics {
         return INSTANCE;
     }
 
+    public static Analytics event(String category, String action, String label) {
+        synchronized (INSTANCE.providers) {
+            for (AnalyticsProvider provider : INSTANCE.providers) {
+                provider.event(new AnalyticsEvent(category, action, label));
+            }
+        }
+        return INSTANCE;
+    }
+
     public static Analytics exception(Exception exception) {
         synchronized (INSTANCE.providers) {
             for (AnalyticsProvider provider : INSTANCE.providers) {
