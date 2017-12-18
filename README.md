@@ -24,6 +24,15 @@ Analytics.registerProvider(
 );
 ```
 
+example of `app_tracker.xml` :
+
+```
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="ga_trackingId" translatable="false">UA-XXXXXXX-X</string>
+</resources>
+```
+
 # Send events
 
 `MainActivity.java`
