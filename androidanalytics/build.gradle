@@ -2,7 +2,6 @@ apply plugin: 'com.android.library'
 
 android {
     compileSdkVersion project.sdk
-    buildToolsVersion project.buildTools
 
     defaultConfig {
         minSdkVersion project.minSdk
@@ -13,7 +12,6 @@ android {
 }
 
 dependencies {
-    compile fileTree(dir: 'libs', include: ['*.jar'])
 }
 
 ext {
