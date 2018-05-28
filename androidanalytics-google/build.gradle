@@ -13,7 +13,7 @@ android {
 
 dependencies {
     implementation project(":androidanalytics")
-    api 'com.google.android.gms:play-services-analytics:15.0.0'
+    api 'com.google.android.gms:play-services-analytics:16.0.0'
 }
 
 ext {
